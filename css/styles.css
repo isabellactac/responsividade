@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: #ff000022;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    /* cuidado com o padding, porque ele altera a largura e altura do elemento - usar box-sizing*/
+    border: solid 1px blue;
+    /* border raius arredonda as pontas do elemento */
+    border-radius: 5px;
+    text-align: center;
+}
